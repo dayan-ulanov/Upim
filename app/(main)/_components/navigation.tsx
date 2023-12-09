@@ -27,7 +27,7 @@ export const Navigation = () => {
     if (isMobile) {
       collapse();
     }
-
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     resetWidth()
   }, [isMobile]);
 
